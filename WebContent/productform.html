@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>productform과제</title>
+</head>
+<body>
+<form>
+	<fieldset>
+		<legend>납품자정보</legend><br>
+		<label>&nbsp;&nbsp;1. 납품자명 : </label><input type="search" name="searchText" placeholder="name"><br><br>
+		<label>&nbsp;&nbsp;2. email : </label><input type="email" name="email" placeholder="answs@naver.com"><br><br>
+		<label>&nbsp;&nbsp;3. 홈페이지 : </label><input type="url" name="homepage" placeholder="http://"><br><br>
+	</fieldset>
+	
+	<fieldset>
+		<legend>납품정보</legend><br>
+		<ul>
+			<li><label>상품명 : <input type="search" name="name"></label></li><br>
+			<li><label>납품수량 : <input type="number" size="5" name="amount" min="100" placeholder="최소 100"></label></li><br>
+			<li><label>납품등급 : <input type="range" name="point"></label></li><br>
+			<li><label>기타사항 : </label><textarea cols="20" rows="2" style="resize: none;"></textarea><br>
+		</ul>
+	</fieldset>
+	<br>
+	<input type="submit" value="send message">
+</form>
+</body>
+</html>
